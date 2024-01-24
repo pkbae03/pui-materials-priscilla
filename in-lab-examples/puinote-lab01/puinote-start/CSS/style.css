@@ -1,21 +1,41 @@
 body {
   /* Set the default font family and font color for our application. */
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 14px;
   color: #939393;
   background-color: #191919;
+  font-size: 14px;
 }
 
 h1{
   color: white;
-
+  font-size: 18px;
 }
 
 .notecard{
   width: 450px;
   margin-left: auto;
   margin-right: auto;
-  
+  margin-top:100px;
+}
 
+
+.notecard-thumbnail {
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+}
+
+#button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid #595959;
+  padding: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#button:hover{
+  color: #dddd;
+  background-color: #393939;
 }
 
