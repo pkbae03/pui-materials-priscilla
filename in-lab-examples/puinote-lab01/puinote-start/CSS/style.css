@@ -1,0 +1,21 @@
+body {
+  /* Set the default font family and font color for our application. */
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #939393;
+  background-color: #191919;
+}
+
+h1{
+  color: white;
+
+}
+
+.notecard{
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
